@@ -1,0 +1,9 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- Plugins -->
+    <type name="Magento\Customer\CustomerData\SectionPool">
+        <plugin name="workaround_update_all_sections"
+                type="MageWorx\CustomerDataFix\Plugin\UpdateAllCustomerDataSections"
+                sortOrder="10"
+                disabled="false"/>
+    </type>
+</config>
