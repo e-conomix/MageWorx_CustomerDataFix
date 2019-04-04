@@ -1,5 +1,5 @@
 {
-  "name": "mageworx/module-customer-data-fix",
+  "name": "e-conomix/mageworx-module-customer-data-fix",
   "description": "Fix error in customer data sections",
   "require": {
     "magento/module-customer": ">=100"
